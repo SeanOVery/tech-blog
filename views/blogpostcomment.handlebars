@@ -6,13 +6,15 @@
 </div>
 
 <div>
-      <form class="form comment-form">
+      <form class="form comment-form" data-id="{{id}}">
       <div class="form-group">
         <label for="comment-input">Comment:</label>
-        <textarea class="form-input" type="text" id="email-login" ></textarea>
+        <textarea class="form-input" type="text" id="comment-input" ></textarea>
       </div>
       <div class="form-group">
-        <button class="btn btn-primary" data-id="{{id}}">Comment</button>
+        <button type="submit" class="btn btn-primary" data-id="{{id}}" id="comment-btn">Comment</button>
       </div>
     </form>
 </div>
+
+<script src="/js/blogpost.js"></script>
