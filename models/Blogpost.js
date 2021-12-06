@@ -11,9 +11,9 @@ Blogpost.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    author: {
+    title: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     text: {
       type: DataTypes.STRING,
