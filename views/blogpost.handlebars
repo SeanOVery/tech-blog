@@ -4,6 +4,14 @@
   <p>{{text}}</p>
   <p>Created on {{format_date date_created}}</p>
   <p>
-    <button class="btn btn-primary">Comment</button>
+    <a href="/blogpost/{{id}}/comment"><button class="btn btn-primary" data-id="{{id}}">Comment</button></a>
   </p>
 </div>
+
+
+
+
+
+
+
+<script src="/js/blogpost.js"></script>
